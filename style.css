@@ -1,6 +1,6 @@
 body {
     background-color: #2a0c0c; /* dark red/blackish */
-    color: #f4f4f4;
+    color: #b13535;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -37,11 +37,12 @@ blockquote {
 #wrapper {
     background: #fff5f5;
     padding: 20px;
-    margin: 2% auto;
+    margin: 20% auto;
     width: 90%;
     max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    
 }
 
 #banner {

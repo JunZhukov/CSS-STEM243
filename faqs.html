@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>STEM243 FAQs - HTML5 and CSS3</title>
-  <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="style.css"/>
+  </style>
 </head>
 <body>
 
@@ -23,11 +24,16 @@
 
     <!-- Banner Section -->
     <header id="banner">
-      <h1>STEM243 FAQs <em>HTML5 and CSS3</em> - 5th Week</h1>
-      <p><em>This is CSS3</em></p>
+      <div class="banner-profile">
+        <img src="Charleslandon.jpg" alt="Charles Landon Rodas" id="profile-pic">
+        <div class="banner-text">
+          <h1>This is <em>Charles Landon J. Rodas</em></h1>
+          <p><em>this beri hansum person modified this index.html</em></p>
+        </div>
+      </div>
     </header>
 
-    <!-- Left Sidebar -->
+    <!-- Sidebars -->
     <aside id="sidebar-left">
       <h2>About</h2>
       <p>Use this reference for your PETA Midterm Project</p>
@@ -57,10 +63,9 @@
       </ul>
     </aside>
 
-    <!-- Right Sidebar -->
     <aside id="sidebar">
       <h2>About</h2>
-      <p>Use this reference for your PETA Midterm Project</p>
+      <p>I am Charles Landon Rodas, BSIT/STEM</p>
 
       <h2>Categories</h2>
       <ul>
@@ -89,21 +94,65 @@
 
     <!-- Main Content -->
     <main id="content">
-      <section class="item">
-        <blockquote><p>This is the updated file</p></blockquote>
-      </section>
+      <h2>📘 HTML + CSS3 FAQ Cheat Sheet</h2>
 
-      <section class="item">
-        <p>You may put your content here.</p>
+      <section class="faq-section">
+        <blockquote><h1>What is HTML?</h1>
+
+          <h1>It builds the structure of web pages using tags.</h1> 
+          
+          <h1>HTML vs HTML5?</h1>
+          <p>HTML5 adds new features like videos, audio, and better compatibility.</p>  
+          
+          <h1>What are semantic elements?</h1>
+          <p>Tags like article, section, header that describe content clearly.</p>
+          
+          <h1>div vs span?</h1>
+          <p>ivis block-level,spa is inline. Both help with layout styling.</p>
+          
+          <h1> ID vs Class?</h1>
+          <p>id is unique. class can be reused.</p>
+          
+          <h1>How do forms work?</h1>
+          <p>Collects user input and sends it to a server.</p>
+
+          </h> What is CSS?></h1>
+          <p>It styles HTML with colors, fonts, and layout.</p>
+
+          <h>CSS vs CSS3? </h>
+          <p>CSS3 adds animations, transitions, flexbox, etc.</p>
+
+          <h>What are selectors? </h>
+          <p>Targets HTML with .class, #id, or tags.</p>
+
+          <h>Box Model? </h>
+          <p>Content → Padding → Border → Margin.</p>
+
+          <h>What is Flexbox? </h>
+          <p>A layout system for arranging items easily.</p>
+
+          <h>What are Media Queries? </h>
+          <p>CSS rules that change based on screen size.</p>
+
+          <h>m vs rem vs px vs %? </h>
+
+          <p>px = fixed
+
+          em = relative to parent
+
+          rem = relative to rootSS
+
+          % = relative to container
+          </p></blockquote>
+
       </section>
     </main>
 
     <!-- Footer -->
     <footer id="footer">
-      <p>&copy; 2025 STEM243 - All rights reserved.</p>
+      <p>&copy; 2025 Charles Landon Rodas. All rights reserved.</p>
     </footer>
 
   </div>
-
 </body>
 </html>
